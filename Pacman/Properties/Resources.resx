@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="afraidGhost1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhost1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afraidGhost2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhost2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afraidGhost3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhost3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afraidGhost4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhost4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afraidGhost5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhost5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afraidGhost6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhost6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afraidGhostEnd1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhostEnd1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afraidGhostEnd2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhostEnd2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afraidGhostEnd3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhostEnd3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afraidGhostEnd4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhostEnd4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afraidGhostEnd5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhostEnd5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="afraidGhostEnd6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\afraidGhostEnd6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky1Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky1Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky1Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky1Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky1Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky1Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky1Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky1Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky2Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky2Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky2Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky2Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky2Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky2Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky2Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky2Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky3Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky3Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky3Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky3Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky3Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky3Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky3Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky3Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky4Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky4Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky4Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky4Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky4Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky4Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky4Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky4Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky5Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky5Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky5Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky5Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky5Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky5Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky5Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky5Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky6Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky6Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky6Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky6Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky6Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky6Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blinky6Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blinky6Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde1Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde1Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde1Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde1Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde1Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde1Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde1Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde1Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde2Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde2Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde2Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde2Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde2Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde2Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde2Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde2Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde3Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde3Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde3Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde3Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde3Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde3Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde3Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde3Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde4Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde4Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde4Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde4Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde4Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde4Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde4Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde4Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde5Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde5Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde5Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde5Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde5Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde5Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde5Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde5Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde6Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde6Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde6Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde6Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde6Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde6Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="clyde6Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\clyde6Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyesDown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyesDown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyesLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyesLeft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyesRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyesRight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eyesUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eyesUp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky1Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky1Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky1Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky1Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky1Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky1Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky1Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky1Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky2Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky2Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky2Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky2Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky2Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky2Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky2Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky2Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky3Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky3Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky3Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky3Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky3Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky3Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky3Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky3Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky4Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky4Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky4Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky4Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky4Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky4Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky4Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky4Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky5Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky5Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky5Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky5Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky5Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky5Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky5Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky5Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky6Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky6Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky6Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky6Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky6Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky6Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inky6Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inky6Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pac" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pac.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman10Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman10Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman10Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman10Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman10Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman10Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman10Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman10Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman11Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman11Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman11Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman11Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman11Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman11Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman11Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman11Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman12Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman12Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman12Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman12Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman12Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman12Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman12Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman12Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman13Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman13Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman13Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman13Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman13Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman13Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman13Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman13Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman14Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman14Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman14Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman14Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman14Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman14Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman14Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman14Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman1Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman1Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman1Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman1Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman1Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman1Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman1Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman1Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman2Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman2Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman2Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman2Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman2Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman2Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman2Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman2Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman3Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman3Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman3Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman3Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman3Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman3Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman3Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman3Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman4Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman4Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman4Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman4Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman4Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman4Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman4Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman4Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman5Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman5Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman5Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman5Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman5Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman5Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman5Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman5Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman6Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman6Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman6Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman6Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman6Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman6Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman6Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman6Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman7Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman7Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman7Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman7Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman7Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman7Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman7Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman7Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman8Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman8Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman8Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman8Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman8Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman8Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman8Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman8Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman9Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman9Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman9Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman9Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman9Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman9Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman9Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman9Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pause2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky1Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky1Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky1Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky1Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky1Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky1Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky1Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky1Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky2Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky2Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky2Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky2Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky2Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky2Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky2Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky2Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky3Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky3Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky3Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky3Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky3Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky3Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky3Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky3Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky4Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky4Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky4Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky4Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky4Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky4Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky4Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky4Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky5Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky5Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky5Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky5Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky5Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky5Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky5Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky5Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky6Down" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky6Down.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky6Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky6Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky6Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky6Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pinky6Up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pinky6Up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="specialPill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\specialPill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WhimsyTT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WhimsyTT.TTF;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="setting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="setting2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eat_ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eat_ghost.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eat_pill" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eat_pill.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eat_pow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eat_pow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="extra_lives" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\extra_lives.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="morto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\morto.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ridere" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ridere.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

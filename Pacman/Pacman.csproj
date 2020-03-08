@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7111C8B-277C-45ED-ACD0-7B3AB2CC4C57}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pacman</RootNamespace>
+    <AssemblyName>Pacman</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Gioco.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Impostazioni.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Impostazioni.Designer.cs">
+      <DependentUpon>Impostazioni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Info.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Mappa.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Personaggi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MainPacman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainPacman.Designer.cs">
+      <DependentUpon>MainPacman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Timer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Impostazioni.resx">
+      <DependentUpon>Impostazioni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainPacman.resx">
+      <DependentUpon>MainPacman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\WhimsyTT.TTF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apertoDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apertoLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apertoRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apertoUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chiuso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semiApertoDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semiApertoLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semiApertoRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semiApertoUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pillola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pillolaSpeciale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhost1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhost2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhost3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhost4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhost5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhost6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhostEnd1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhostEnd2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhostEnd3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhostEnd4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhostEnd5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\afraidGhostEnd6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky1Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky2Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky3Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky4Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky5Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky6Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky1Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky2Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky3Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky4Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky5Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky6Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky1Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky2Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky3Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky4Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky5Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky6Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky1Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky2Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky3Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky4Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky5Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blinky6Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde1Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde2Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde3Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde4Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde5Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde6Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde1Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde2Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde3Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde4Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde5Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde6Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde1Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde2Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde3Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde4Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde5Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde6Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde1Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde2Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde3Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde4Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde5Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clyde6Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky1Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky2Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky3Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky4Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky5Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky6Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky1Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky2Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky3Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky4Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky5Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky6Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky1Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky2Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky3Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky4Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky5Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky6Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky1Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky2Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky3Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky4Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky5Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky6Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky1Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky2Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky3Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky4Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky5Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky6Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky1Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky2Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky3Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky4Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky5Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky6Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky1Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky2Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky3Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky4Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky5Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inky6Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky1Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky2Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky3Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky4Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky5Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinky6Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyesRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyesUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyesDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eyesLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\specialPill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman1Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman2Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman3Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman4Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman5Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman6Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman7Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman8Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman9Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman10Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman11Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman12Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman13Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman14Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman1Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman2Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman3Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman4Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman5Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman6Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman7Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman8Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman9Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman10Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman11Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman12Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman13Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman14Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman1Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman2Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman3Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman4Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman5Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman6Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman7Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman8Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman9Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman10Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman11Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman12Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman13Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman14Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman1Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman2Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman3Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman4Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman5Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman6Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman7Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman8Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman9Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman10Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman11Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman12Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman13Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman14Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ico.ico" />
+    <None Include="Resources\start.wav" />
+    <None Include="Resources\ridere.wav" />
+    <None Include="Resources\morto.wav" />
+    <None Include="Resources\extra_lives.wav" />
+    <None Include="Resources\eat_pow.wav" />
+    <None Include="Resources\eat_pill.wav" />
+    <None Include="Resources\eat_ghost.wav" />
+    <None Include="Resources\setting.png" />
+    <None Include="Resources\setting2.png" />
+    <None Include="Resources\background.png" />
+    <None Include="Resources\pac.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
