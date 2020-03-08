@@ -1,5 +1,5 @@
 # Pacman
-This is my Pacman version that i developed when i was attending school as homework project.
+This is my Pacman version that i developed (in C#) when i was attending school as homework project.
 
 Enjoy it =)
 
