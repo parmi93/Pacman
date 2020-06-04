@@ -1,5 +1,5 @@
 # Pacman
-This is the Pacman version I developed in 2 weeks (with C#) when i was attending high school as homework project.
+This is the Pacman version I developed in 2 weeks (with C#) when I was attending high school as homework project.
 
 Enjoy it =)
 
